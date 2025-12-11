@@ -1,1 +1,1 @@
-Practice with Kaggle data after completing some DataCamp classes
+Practice with Kaggle data after completing some Coursera and DataCamp classes
