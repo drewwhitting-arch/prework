@@ -6,13 +6,13 @@ data = pd.read_csv('/Users/drewwhitting/Documents/VSCodePython/HappinessDataKagg
 cGenerosity = data['Generosity']
 cScore = data['Score']
 
-"""
+
 plt.scatter(cGenerosity, cScore)
 plt.xlabel('Generosity')
 plt.ylabel('Happiness Score')
 plt.title('Country Population Showing Generosty vs Happiness Score')
 plt.show()
-"""
+
 plt.hist(cGenerosity, bins=25)
 plt.xlabel('Generosity')
 plt.title('Histogram of Country Population Happiness Score')
